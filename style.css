@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: #313131;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 20px;
+
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+/*-------------------------------------------*/
+/*---  FIRST Section  -----*/
+/*-------------------------------------------*/
+
+.firstSection {
+  justify-content: flex-end;
+  background: url(../assets/image/BgFirstBanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  height: 100svh;
+  padding: 20px 24px;
+}
+
+.firstSection__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.firstSection__text {
+  color: #fff;
+  font-family: "Cormorant Infant", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 36px;
+}
+
+.firstSection__Logo {
+  width: 100%;
+  
+}
+
+/*-------------------------------------------*/
+/*---  Second Section  -----*/
+/*-------------------------------------------*/
+.secondSection {
+  padding: 34px 20px;
+  
+}
+
+.secondSection__content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 26px;
+}
+
+.secondSection__title {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 28px;
+}
+
+.secondSection__date {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 28px;
+}
+
+/*-------------------------------------------*/
+/*---  THREE Section  -----*/
+/*-------------------------------------------*/
+.threeSection {
+  padding: 0;
+}
+
+.threeSection__Iniciali {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 75px;
+  padding: 24px 0;
+}
+
+.threeSection__Img {
+  width: 100%;
+  height: auto;
+}
+
+/*-------------------------------------------*/
+/*---  Four Section  -----*/
+/*-------------------------------------------*/
+
+.fourSection {
+  justify-content: center;
+  background: url(../assets/image/BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  padding: 28px 24px;
+  color: #fff;
+}
+
+.fourSection__text {
+  width: 100%;
+  font-family: "Cormorant Infant", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 28px;
+}
+
+.fourSection__text1 {
+  width: 100%;
+  font-family: "Cormorant Infant", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 28px;
+  text-align: right;
+}
+
+/*-------------------------------------------*/
+/*---  Five Section  -----*/
+/*-------------------------------------------*/
+
+
+.fiveSection__item {
+  margin-top: 18px;  
+}
+
+.fiveSection__item__time {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 44px;
+}
+
+.fiveSection__item__title {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.fiveSection__item__text {
+  margin-top: 6px;
+}
+
+.fiveSection__item__beskon {
+  display: flex;
+}
+
+.fiveSection__imgBeskon {
+  margin-left: 5px;
+}
+
+/*-------------------------------------------*/
+/*---  Six Section  -----*/
+/*-------------------------------------------*/
+
+.sixSection {
+  justify-content: center;
+  background: url(../assets/image/bgLocation.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  padding: 28px 24px;
+}
+
+.sixSection__content {
+  background-color: #fff;
+  width: 100%;
+  padding: 40px 36px;
+}
+
+.sixSection__Title {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 28px;
+}
+
+.razdelitel {
+  width: 64px;
+  height: 2px;
+  background-color: #313131;
+  margin: 20px auto;
+}
+
+.sixSection__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sixSection__Title__setting {
+  width: 100%;
+  text-align: center;
+}
+
+/*-------------------------------------------*/
+/*---  Seven Section  -----*/
+/*-------------------------------------------*/
+
+.sevenSection__dress {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.dress1 {
+  width: 28%;
+  height: 31px;
+  background-color: #ffeffb;
+}
+
+.dress2 {
+  width: 28%;
+  height: 31px;
+  background-color: #F3ECE2;
+}
+
+.dress3 {
+  width: 28%;
+  height: 31px;
+  background-color: #E6E5FF;
+}
+
+
+.sevenSection__discription {
+  margin: 18px auto;
+}
+
+.sevenSection__dressItem {
+  margin-top: 18px;
+}
+
+.sevenSection__dressItem__Title {
+  font-family: "Cormorant Infant", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.secondSection__description {
+  text-align: center;
+}
+
+.eithSection__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 26px;
+  text-align: center;
+}
+
+.buttonAnket {
+  text-decoration: none;
+  width: 195px;
+  height: 44px;
+  color: #fff;
+  background-color: #313131;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  transition: all 0.2s;
+}
+
+.buttonAnket:hover {
+  border: 2px solid #313131;
+  background-color: #fff;
+  color: #313131;
+}
+
+.lastSection {
+  justify-content: flex-end;
+  background: url(../assets/image/BgLastBanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  height: 100svh;
+  padding: 20px 24px;
+}
+
+.ssilki__container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  color: #fff;
+  font-size: 18px;
+}
+
+.inst {
+  color: #fff;
+}
+
+.telegram {
+  color: #fff;
+}
+
+.nevesta {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  row-gap: 2px;
+}
+
+.jhenih {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+}
